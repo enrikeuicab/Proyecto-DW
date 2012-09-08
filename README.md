@@ -37,6 +37,7 @@ Plugins y configuraciones extras serán tomadas en cuentapara mejores en calific
 + Manejar distintos colores a las categorías de concursos en la vista de calendario
 + Crear la conexión de MySQL hacia la librería de calendario como un WebService
 + Utilizar diseños responsivos
++ Poder registrar mas de un ganador en base a un campo (número de lugares) agregado al momento de crear el evento
 
 Notas de programación
 + El manejo de las vistas de calendario se hace por medio de una librería de jQuery
