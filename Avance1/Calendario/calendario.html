@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Inicio</title>
+		<link rel="stylesheet" type="text/css" href="estilos.css" media="screen" />
+		
+		<link rel='stylesheet' type='text/css' href='fullcalendar.css' />
+		<script type='text/javascript' src='jquery.js'></script>
+		<script type='text/javascript' src='fullcalendar.js'></script>
+		<script type='text/javascript'>
+			$(document).ready(function() {
+			    // page is now ready, initialize the calendar...
+			    $('#calendar').fullCalendar({
+			        // put your options and callbacks here
+			    })
+			});
+		</script>
+    </head>
+	<body>
+    	
+		<div id="header">
+    		<h1>Concursos<button type="button">Enviar Concurso</button></h1>	
+    	</div>
+		      
+		<div id="article">
+        	<div id='calendar'></div>
+		</div>
+		
+		<div id="footer">
+			<p>© copyright 2012</p>
+		</div>
+		
+    </body>
+</html>
