@@ -1,6 +1,0 @@
-Sinceramente estoy bien confundido y perdido sobre lo que tenemos que hacer.
-Ocupo hablar con ustedes.
-Por lo pronto ahi estan mis html, espero que sirvan,
-solo trate de imitar cada imagen sin css, ni se si de eso se trataba.
-
-Veanlos y comentenme por Face, por cierto agreguenme Eric Diaz Partida 
