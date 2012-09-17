@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>Entrada</title>
+<meta charset = "UTF-8">
+<link rel="stylesheet" type="text/css" href="../css/detalles.css" media="screen" />
+</head>
+
+<body>
+	<div id="content">
+
+
+		<div id="header">
+			<ul class="enviar">
+			<li><a href="../pages/under.html">Enviar Entrada</a></li>
+			</ul>
+		
+			<div class="boxtituloinfo">
+					<h4>Categor&iacute;a: </h4> <p>---</p>
+					<h4>Dificultad: </h4> <p>---</p>
+					<h4>Inicia: </h4><p>DD/MM/AA</p>
+					<h4>Termina: </h4><p>DD/MM/AA</p>
+			</div>
+		</div>		
+
+
+		<section>
+			<div class="box">
+				<div class="boxtitulo">
+				<h1>Grafos XKCDMX</h1>
+				</div>
+					<div class="boxcomment">
+						<p>Esta semana el concurso está inspirado el webcomic XKCD, la propuesta es resolver el reto al aire (obviamente él espera que sea resuelto por alguien) que lanzo Randall Munroe en XKCD #173 - Movie Seating. para motivos del concurso, se deberá resolver en base al grafo adjunto a este articulo.<br/>
+<br/>
+<img class="img" src="../img/imagen.png" width="507" height="331" alt="Codigo" />
+<br/>
+En el se aclara el peso de los enlaces, y se añade un enlace extra añadido por mi (@levhita), para provocar que la respuesta sea única (el grafo original da al menos 10 soluciones distintas). Para este concurso no es necesario que se resuelva en 140 caracteres, la solución deberá ser publicada en codepad.org (dependiendo del algoritmo, es computacionalmente intensa, por lo que no se recomienda que lo ejecuten en codepag.org<br/>
+<br/>
+El concursante deberá mandar un twitt con: su enlace a codepad.org, el hashtag #phpmx, el hashtag #xkcdmx, y el texto de invitacion a dar RT que seseen. Al cual @phpmx dará RT, recuerden hacer promoción de su entrada con sus amigos. el concurso termina el viernes a las 2pm, cuando se contarán los RT's al enlace a codepad.org de su código. Como siempre, hay una sorpresa en la resolución, Diviertanse!.<br/>
+<br/>
+$nodes = array(<br/>
+	0 => 'William',<br/>
+	1 => 'Tania',<br/>
+	2 => 'Fernando',<br/>
+	3 => 'Xavier',<br/>
+	4 => 'Pablo',<br/>
+	5 => 'Hilda',<br/>
+	6 => 'Manuel'<br/>
+	7 => 'Pedro',<br/>
+);<br/>
+<br/>
+$graph = array(<br/>
+	//v - > 0 1 2 3 4 5 6 7<br/>
+	1  => array(0,3,0,0,0,0,0,0),<br/>
+	2  => array(3,0,2,0,0,2,0,0),<br/>
+	3  => array(0,2,0,2,0,1,0,0),<br/>
+	4  => array(0,0,0,1,0,3,2,0),<br/>
+	5  => array(0,2,1,0,0,0,0,0),<br/>
+	6  => array(0,0,0,3,2,0,0,1),<br/>
+	7  => array(0,0,0,0,0,3,1,0),<br/>
+);<br/>
+					</div>
+
+				</div>
+
+		</section>
+		<section>
+			<h3>GANADOR</h3>
+		  <div class="box">
+				<div class="boximage">
+					<img src="../img/levhita.png" width="104" height="105" alt="Codigo" />
+				</div>
+
+				<div class="boxinto">
+					<a class="boxusuario" href="http://twitter.com/">@ Levhita </a>
+					<div class="boxfecha">
+						<h4>Enviado: </h4> <a href="../pages/under.html">DD/MM/AA</a>
+					</div>
+					<div class="boxcoment">
+						<h2>Mi solución es en base a fuerza bruta, usando el clásico sistema de resolución<br/>
+						de grafos http://codepad.org/cylZFDuS #XKCDMX</h2>
+					</div>
+				</div>	
+			</div>
+		</section>
+	
+		<section>
+			<h3>ENTRADAS</h3>
+		  <div class="box">
+				<div class="boximage">
+					<img src="../img/levhita.png" width="104" height="105" alt="Codigo" />
+				</div>
+
+				<div class="boxinto">
+					<a class="boxusuario" href="http://twitter.com/">@ Levhita </a>
+					<div class="boxfecha">
+						<h4>Enviado: </h4><a href="../pages/under.html">DD/MM/AA</a>
+					</div>
+					<div class="boxcoment">
+						<h2>Mi solución es en base a fuerza bruta, usando el clásico sistema de resolución<br/>
+						de grafos http://codepad.org/cylZFDuS #XKCDMX</h2>
+					</div>
+				</div>	
+			</div>
+		</section>
+		
+		<section>
+<!--		<div class="box">		-->
+		
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+            var disqus_shortname = 'libwebdev'; // required: replace example with your forum shortname
+
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+	
+<!--		</div>		-->
+		</section>
+		
+		        <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'libwebdev'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function () {
+            var s = document.createElement('script'); s.async = true;
+            s.type = 'text/javascript';
+            s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+        </script>
+        		
+	</div>
+</body>
+</html>

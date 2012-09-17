@@ -1,0 +1,157 @@
+/* CSS Document */
+
+/*************CONTENEDORS****************/
+
+body{
+	background-image: url('../img/image-blue.jpg');
+	background-attachment: fixed;
+	text-align: center;
+	font-size: 13px;
+	font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+}
+
+
+#content{
+	width: 950px;
+	margin: 0px auto;
+	font-family: Geneva, Arial, Helvetica, sans-serif;			
+	background-color: #ffffff;
+	border-radius: 7px;
+	text-align: left;
+
+}
+
+header{
+	font-size: 24px;
+	font-family: Arial, Verdana, sans-serif;	
+	border-radius: 7px;
+	margin: 5px;
+}
+
+.enviar{
+	width: 250px;
+	height: 50px;
+	margin: 0px;	
+	padding: 3px;
+	float:right;
+}
+
+.enviar li{
+	display: block;
+	border:solid;
+	text-align: center;
+	margin-top:8%;
+}
+
+.enviar li a {
+	display: block;
+	text-decoration: none;
+}
+
+
+.box{
+	border-style: solid;
+	margin: .4em;
+	padding: 8px;
+
+}
+
+.boxtitulo h2 {
+	margin: 0px;
+	padding: 0px;
+	display: inline;
+}
+
+.boxtituloinfo {
+	display:inline;
+	float:right;
+}
+
+.boxcomment{
+/*	height: 100px;	*/
+	margin-top: 5px;
+	padding: 0px;
+}
+
+.boxfooter {
+	margin: 0px;
+	padding: 0px;
+}
+
+.enlaza{
+	float: right;
+}
+
+#footer{
+	height: 40px;
+/*	border-style:solid;		*/
+	clear:both;
+	margin: .4em;
+}
+
+
+.atras{
+	width: 100px;
+	margin-left:0px;
+	margin-top: 7px;
+	padding: 0px;
+	float:left;
+}
+
+.atras li{
+	display: block;
+	border:solid;
+	text-align: center;
+}
+
+.atras li a {
+	display: block;
+	text-decoration: none;
+}
+
+
+.calendar{
+	width: 100px;
+	margin-top: 0px;
+	margin-left: 30%;
+	padding: 0px;	
+	float:left;
+}
+
+.calendar li{
+	display: block;
+	border:solid;
+	text-align: center;
+}
+
+.calendar li a {
+	display: block;
+	text-decoration: none;
+}
+
+
+
+.adelante{
+	width: 100px;
+	margin-top: 7px;
+	margin-left: 38%;
+	padding: 0px;	
+	float:left;
+}
+
+.adelante li{
+	display: block;
+	border:solid;
+	text-align: center;
+}
+
+.adelante li a {
+	display: block;
+	text-decoration: none;
+}
+
+h1, h4, p{
+	display:inline;
+	text-align:center;
+}
+

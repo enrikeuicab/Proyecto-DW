@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+	<head>
+		<link rel='stylesheet' type='text/css' href='../css/fullcalendar.css' />
+		<link rel='stylesheet' type='text/css' href='../js/fullcalendar-1.5.4/demos/cupertino/theme.css' />
+		<link rel='stylesheet' type='text/css' href='../js/fullcalendar-1.5.4/fullcalendar/fullcalendar.css' />
+		<link rel='stylesheet' type='text/css' href='../js/fullcalendar-1.5.4/fullcalendar/fullcalendar.print.css' media='print' />
+		<script type='text/javascript' src='../js/fullcalendar-1.5.4/jquery/jquery-1.8.1.min.js'></script>
+		<script type='text/javascript' src='../js/fullcalendar-1.5.4/jquery/jquery-ui-1.8.23.custom.min.js'></script>
+		<script type='text/javascript' src='../js/fullcalendar-1.5.4/fullcalendar/fullcalendar.min.js'></script>
+		<script type='text/javascript'>
+
+			$(document).ready(function() {
+			
+				var date = new Date();
+				var d = date.getDate();
+				var m = date.getMonth();
+				var y = date.getFullYear();
+				
+				$('#calendar').fullCalendar({
+					theme: true,
+					header: {
+						left: 'prev,next today',
+						center: 'title',
+						right: 'month,agendaWeek,agendaDay'
+					},
+					editable: true,
+					events: [
+						{
+							title: 'Entrega del primer avance del proyecto',
+							start: new Date(y, m, d+1, 19, 0),
+							end: new Date(y, m, d+1, 22, 30),
+							allDay: true
+						},
+						{
+							title: 'Cumpleaos de Leoswaldo',
+							start: new Date(y, m, 25),
+							end: new Date(y, m, 25),
+							allDay: true
+						},
+						{
+							title: 'Cumpleaos del Hermano de Leoswaldo',
+							start: new Date(y, m, 26),
+							end: new Date(y, m, 26),
+							allDay: true
+						}
+					]
+				});
+				
+			});
+
+		</script>
+		<style type='text/css'>
+
+			body {
+				text-align: center;
+				font-size: 13px;
+				font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+				}
+
+			#calendar {
+				width: 900px;
+				margin: 0px auto;
+			}
+
+		</style>
+	</head>
+	<body>
+		<div id="content">
+			<header>
+				N&eacute;mesis Project
+			</header>
+			<div id="section">
+				Calendario 
+			</div>
+			<div id='calendar'></div>
+		</div>
+	</body>
+</html>

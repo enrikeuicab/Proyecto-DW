@@ -1,0 +1,96 @@
+/* CSS Document */
+
+body{
+	background-image: url('../img/image-blue.jpg');
+	background-attachment: fixed;
+	text-align: center;
+	font-size: 13px;
+	font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+}
+
+#content{
+	width: 950px;
+	margin: 0px auto;
+	font-family: Geneva, Arial, Helvetica, sans-serif;			
+	background-color: #ffffff;
+	border-radius: 7px;
+	text-align: left;
+
+}
+
+#header{
+	border-radius: 7px;
+	margin: 5px;
+	height: 60px;
+	
+}
+
+.enviar{
+	width: 250px;
+	margin: 0px;
+	padding: 0px;
+	float:left;
+}
+
+.enviar li{
+	font-size:30px;
+	display: block;
+	border:solid;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.enviar li a {
+	display: block;
+	text-decoration: none;
+}
+
+.boxtituloinfo {
+	display: inline;	
+	float: right;
+	margin-top: 45px;
+
+}
+
+.box{
+	border-style: solid;
+	margin: .4em;
+	padding: 8px;
+}
+
+.img{
+	margin-left: 25%;
+}
+
+.boximage {
+	display: inline;
+	clear:both;
+}
+
+.boxinto {
+	width:800px;
+	float: right;
+	margin: 0px;
+	padding: 0px;
+}
+
+.boxusuario{
+	padding: 3px;
+	display: inline;
+	margin: 0px;
+}
+
+.boxfecha{
+	display: block;
+	float:right;
+}
+
+.boxcoment{
+	clear: both;
+	margin: .4em;
+}
+
+h4, p {
+	display:inline;
+}
+

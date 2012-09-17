@@ -1,0 +1,25 @@
+
+body{
+	background-image: url('../img/image-blue.jpg');
+	background-attachment: fixed;
+}
+
+#content{
+	width: 950px;
+	margin: 0px auto;
+	background-color: #ffffff;
+	border-radius: 7px;
+	text-align: left;
+}
+
+header{
+	font-size: 37px;
+	font-family: Arial, Verdana, sans-serif;
+	padding: 20px;
+}
+
+#section{
+	font-size: 28px;
+	font-family: Arial, Verdana, sans-serif;
+	padding: 15px;
+}
