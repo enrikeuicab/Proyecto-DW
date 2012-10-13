@@ -1,18 +1,19 @@
 /* CSS Document */
 
 body{
-	background-image: url('../img/image-blue.jpg');
+	background-image: url('../img/Bottom_texture.jpg');
 	background-attachment: fixed;
 	text-align: center;
 	font-size: 13px;
 	font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
 }
 
+
 #content{
 	width: 950px;
-	margin: 0px auto;
+	margin: 0% 8%;
 	font-family: Geneva, Arial, Helvetica, sans-serif;			
-	background-color: #ffffff;
+	background-color: #ffffff; 
 	border-radius: 7px;
 	text-align: left;
 
@@ -26,29 +27,52 @@ body{
 }
 
 .enviar{
+	width: 150px;
+	height: 40px;
+	margin: 0px;	
+	padding: 0px 3px;
+	float:right;
+}
+
+.enviar li{
+	display: block;
+	border:solid;
+	text-align: center;
+	margin-top:3%;
+	border-radius: 7px;
+}
+
+.enviar li a {
+	display: block;
+	text-decoration: none;
+
+}
+
+.enviarE{
 	width: 250px;
 	margin: 0px;
 	padding: 0px;
 	float:left;
 }
 
-.enviar li{
+.enviarE li{
 	font-size:30px;
 	display: block;
 	border:solid;
 	text-align: center;
 	margin-top: 10px;
+	border-radius: 7px;
 }
 
-.enviar li a {
+.enviarE li a {
 	display: block;
 	text-decoration: none;
 }
 
 .boxtituloinfo {
-	display: inline;	
+	clear:both;
+	display: inline;
 	float: right;
-	margin-top: 45px;
 
 }
 
@@ -56,6 +80,7 @@ body{
 	border-style: solid;
 	margin: .4em;
 	padding: 8px;
+	border-radius: 7px;
 }
 
 .img{
@@ -94,3 +119,13 @@ h4, p {
 	display:inline;
 }
 
+.code{
+	padding: 0px 40px;
+	font-size:18px;
+	font-weight:bold;
+}
+
+.cat, .dif, .ini, .end, h4{
+	display:inline;
+	text-align:center;
+}

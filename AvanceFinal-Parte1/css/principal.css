@@ -3,17 +3,16 @@
 /*************CONTENEDORS****************/
 
 body{
-	background-image: url('../img/image-blue.jpg');
+	background-image: url('../img/Bottom_texture.jpg');
 	background-attachment: fixed;
 	text-align: center;
 	font-size: 13px;
 	font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
 }
 
-
 #content{
 	width: 950px;
-	margin: 0px auto;
+	margin: 0% 8%;
 	font-family: Geneva, Arial, Helvetica, sans-serif;			
 	background-color: #ffffff;
 	border-radius: 7px;
@@ -21,18 +20,20 @@ body{
 
 }
 
-header{
+#header{
+	height:60px;
 	font-size: 24px;
-	font-family: Arial, Verdana, sans-serif;	
+	font-family: Arial, Verdana, sans-serif;
 	border-radius: 7px;
 	margin: 5px;
+
 }
 
 .enviar{
 	width: 250px;
 	height: 50px;
 	margin: 0px;	
-	padding: 3px;
+	padding: 0px 3px;
 	float:right;
 }
 
@@ -41,11 +42,13 @@ header{
 	border:solid;
 	text-align: center;
 	margin-top:8%;
+	border-radius: 7px;
 }
 
 .enviar li a {
 	display: block;
 	text-decoration: none;
+
 }
 
 
@@ -53,10 +56,11 @@ header{
 	border-style: solid;
 	margin: .4em;
 	padding: 8px;
+	border-radius: 7px;
 
 }
 
-.boxtitulo h2 {
+.boxtitulo h3 {
 	margin: 0px;
 	padding: 0px;
 	display: inline;
@@ -96,12 +100,14 @@ header{
 	margin-top: 7px;
 	padding: 0px;
 	float:left;
+	border-radius: 7px;
 }
 
 .atras li{
 	display: block;
 	border:solid;
 	text-align: center;
+	border-radius: 7px;
 }
 
 .atras li a {
@@ -116,17 +122,20 @@ header{
 	margin-left: 30%;
 	padding: 0px;	
 	float:left;
+
 }
 
 .calendar li{
 	display: block;
 	border:solid;
 	text-align: center;
+	border-radius: 7px;
 }
 
 .calendar li a {
 	display: block;
 	text-decoration: none;
+	border-radius: 7px;
 }
 
 
@@ -143,6 +152,7 @@ header{
 	display: block;
 	border:solid;
 	text-align: center;
+	border-radius: 7px;
 }
 
 .adelante li a {
@@ -150,7 +160,12 @@ header{
 	text-decoration: none;
 }
 
-h1, h4, p{
+h1, p{
+	display:inline;
+	text-align:center;
+}
+
+.cat, .dif, .ini, .end, h4{
 	display:inline;
 	text-align:center;
 }

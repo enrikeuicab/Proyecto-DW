@@ -11,15 +11,19 @@
 
 
 		<div id="header">
-			<ul class="enviar">
+			<ul class="enviarE">
 			<li><a href="../pages/under.html">Enviar Entrada</a></li>
 			</ul>
-		
+			
+			<ul class="enviar">
+			<li><a href="pages/under.html">Enviar Concurso</a></li>
+		</ul>
+			
 			<div class="boxtituloinfo">
-					<h4>Categor&iacute;a: </h4> <p>---</p>
-					<h4>Dificultad: </h4> <p>---</p>
-					<h4>Inicia: </h4><p>DD/MM/AA</p>
-					<h4>Termina: </h4><p>DD/MM/AA</p>
+					<div class="cat"><h4>Categor&iacute;a: </h4> <p>---</p></div>
+					<div class="dif"><h4>Dificultad: </h4> <p>---</p></div>
+					<div class="ini"><h4>Inicia: </h4><p>DD/MM/AA</p></div>
+					<div class="end"><h4>Termina: </h4><p>DD/MM/AA</p></div>
 			</div>
 		</div>		
 
@@ -30,14 +34,16 @@
 				<h1>Grafos XKCDMX</h1>
 				</div>
 					<div class="boxcomment">
-						<p>Esta semana el concurso está inspirado el webcomic XKCD, la propuesta es resolver el reto al aire (obviamente él espera que sea resuelto por alguien) que lanzo Randall Munroe en XKCD #173 - Movie Seating. para motivos del concurso, se deberá resolver en base al grafo adjunto a este articulo.<br/>
+						<h4>Esta semana el concurso está inspirado el webcomic XKCD, la propuesta es resolver el reto al aire (obviamente él espera que sea resuelto por alguien) que lanzo Randall Munroe en XKCD #173 - Movie Seating. para motivos del concurso, se deberá resolver en base al grafo adjunto a este articulo.<br/>
 <br/>
 <img class="img" src="../img/imagen.png" width="507" height="331" alt="Codigo" />
 <br/>
 En el se aclara el peso de los enlaces, y se añade un enlace extra añadido por mi (@levhita), para provocar que la respuesta sea única (el grafo original da al menos 10 soluciones distintas). Para este concurso no es necesario que se resuelva en 140 caracteres, la solución deberá ser publicada en codepad.org (dependiendo del algoritmo, es computacionalmente intensa, por lo que no se recomienda que lo ejecuten en codepag.org<br/>
 <br/>
-El concursante deberá mandar un twitt con: su enlace a codepad.org, el hashtag #phpmx, el hashtag #xkcdmx, y el texto de invitacion a dar RT que seseen. Al cual @phpmx dará RT, recuerden hacer promoción de su entrada con sus amigos. el concurso termina el viernes a las 2pm, cuando se contarán los RT's al enlace a codepad.org de su código. Como siempre, hay una sorpresa en la resolución, Diviertanse!.<br/>
+El concursante deberá mandar un twitt con: su enlace a codepad.org, el hashtag #phpmx, el hashtag #xkcdmx, y el texto de invitacion a dar RT que seseen. Al cual @phpmx dará RT, recuerden hacer promoción de su entrada con sus amigos. el concurso termina el viernes a las 2pm, cuando se contarán los RT's al enlace a codepad.org de su código. Como siempre, hay una sorpresa en la resolución, Diviertanse!.</h4>
 <br/>
+<br/>
+<div class="code">
 $nodes = array(<br/>
 	0 => 'William',<br/>
 	1 => 'Tania',<br/>
@@ -58,7 +64,9 @@ $graph = array(<br/>
 	5  => array(0,2,1,0,0,0,0,0),<br/>
 	6  => array(0,0,0,3,2,0,0,1),<br/>
 	7  => array(0,0,0,0,0,3,1,0),<br/>
-);<br/>
+);
+</div>
+<br/>
 					</div>
 
 				</div>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Motivo de cancelacion de concurso</title>
+		<link rel="stylesheet" type="text/css" href="../css/form.css" media="screen" />
+		<!-- Para el editor de texto -->
+		<script src="http://js.nicedit.com/nicEdit-latest.js" type="text/javascript"></script>
+        <script type="text/javascript">bkLib.onDomLoaded(nicEditors.allTextAreas);</script>
+		<script language="javascript" type="text/javascript" src="../js/administrador.js"></script>		
+
+    </head>
+    <body>
+	<div id="content">
+		<div id="header">
+        <h1>Motivo de cancelaci&oacute;n del evento</h1><br />
+		</div>
+		<div class="box">
+		<form name="form" action="archivo.php" method="post">
+			<label for="motivo">Motivo de cancelacion</label>
+			<textarea name="motivo" id="motivo" style="width: 100%;"></textarea>
+			<br />
+					
+			<button type="button" onClick="valida_envia()">Enviar</button>
+			<button type="submit" style="display:none;" name="botonSubmit"></button>
+		
+		</form>
+		</div>
+		<br/>
+		</div>
+    </body>
+</html>

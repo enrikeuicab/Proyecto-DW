@@ -1,7 +1,7 @@
 /* CSS Document */
 
 body{
-	background-image: url('../img/image-blue.jpg');
+	background-image: url('../img/Bottom_texture.jpg');
 	background-attachment: fixed;
 	text-align: center;
 	font-size: 13px;
@@ -10,7 +10,7 @@ body{
 
 #content{
 	width: 950px;
-	margin: 0% 8%;
+	margin: 0 8% ;
 	font-family: Geneva, Arial, Helvetica, sans-serif;			
 	background-color: #ffffff;
 	border-radius: 7px;
@@ -18,11 +18,19 @@ body{
 
 }
 
-.img{
-	margin-top: 10px;
-	margin-left: 25%;
+#header{
+	height:60px;
+	font-size: 24px;
+	font-family: Arial, Verdana, sans-serif;
+	border-radius: 7px;
+	margin: 10px;
+
 }
 
-h1{
-	text-align:center;
+.box{
+	border-style: solid;
+	margin: .4em;
+	padding: 8px;
+	border-radius: 7px;
+
 }

@@ -1,4 +1,4 @@
-Registro de concursos de programación
+﻿Registro de concursos de programación
 
 Se encuentra la problemática de que continuamente se crean corcursos de programación para mantener a la comunidad actualizada, y es díficil informar a los usuarios y hacerlos participes, por esto es que se busca un sistema donde los usuarios den de alta los concursos y las entradas a cada uno de ellos.
 
@@ -44,3 +44,11 @@ Notas de programación
 + Para conectar esa librería con los datos de la base de datos se hace por medio de JSON
 + Para el manejo de comentarios se utiliza el recurso Disqus
 + Para que los usuarios almacenen su código se usa codepad.org
+
+
+Link: http://alanturing.cucei.udg.mx/libweb-dev/
+
+Integrantes:
+	DIAZ PARTIDA, ERIC URIEL RICA
+	GARCIA MARTINEZ, ALBERTO
+	RODRIGUEZ GASPAR, MAURICIO ADOLFO
