@@ -1,19 +1,19 @@
 /* CSS Document */
 
 body{
-	background-image: url('../img/Bottom_texture.jpg');
-	background-attachment: fixed;
-	text-align: center;
-	font-size: 13px;
-	font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+	margin: 0;
+	padding: 0;
+	background: #33cc99 ;
+	font-size: 14px;
+	font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-
 }
 
 
 #content{
 	width: 950px;
-	margin: 0% 8%;
+	margin: 0px auto;
 	font-family: Geneva, Arial, Helvetica, sans-serif;			
-	background-color: #ffffff; 
+	background-color: #33cc99 ;
 	border-radius: 7px;
 	text-align: left;
 
@@ -21,24 +21,33 @@ body{
 
 #header{
 	border-radius: 7px;
+	font-family: Arial, Verdana, sans-serif;
 	margin: 5px;
 	height: 60px;
 	
 }
 
 .enviar{
-	width: 150px;
-	height: 40px;
+	width: 250px;
+	height: 50px;
 	margin: 0px;	
 	padding: 0px 3px;
 	float:right;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: bold;
+	border: none;
 }
+.enviar a:hover {
+	background: rgba(0,0,0,.3);
+}
+
 
 .enviar li{
 	display: block;
-	border:solid;
+	border: none;
 	text-align: center;
-	margin-top:3%;
+	margin-top:8%;
 	border-radius: 7px;
 }
 
@@ -49,16 +58,25 @@ body{
 }
 
 .enviarE{
-	width: 250px;
+	width: 400px;
 	margin: 0px;
 	padding: 0px;
 	float:left;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-size: 16px;
+	font-weight: bold;
+	border: none;
+}
+
+.enviarE:hover {
+	background: rgba(0,0,0,.3);
 }
 
 .enviarE li{
 	font-size:30px;
 	display: block;
-	border:solid;
+	border:none;
 	text-align: center;
 	margin-top: 10px;
 	border-radius: 7px;
@@ -77,10 +95,9 @@ body{
 }
 
 .box{
-	border-style: solid;
-	margin: .4em;
-	padding: 8px;
-	border-radius: 7px;
+	margin-bottom: 30px;
+	padding: 20px 20px;
+	background: rgba(0,0,0,.30);
 }
 
 .img{
@@ -94,7 +111,10 @@ body{
 
 .boxinto {
 	width:800px;
+	color: #FFFFFF;
 	float: right;
+	text-align: justify;
+	font-family: 'Abel', sans-serif;
 	margin: 0px;
 	padding: 0px;
 }
@@ -111,21 +131,37 @@ body{
 }
 
 .boxcoment{
+	color: #FFFFFF;
 	clear: both;
+	text-align: justify;
+	font-family: 'Abel', sans-serif;
+	font-weight: 300;
 	margin: .4em;
 }
 
 h4, p {
 	display:inline;
+	
+	color: #FFFFFF;
+}
+
+h1,h3{
+text-transform: uppercase;
+
+	color: #FFFFFF;
+
 }
 
 .code{
 	padding: 0px 40px;
 	font-size:18px;
 	font-weight:bold;
+	color: #33cc99 ;
+	
 }
 
 .cat, .dif, .ini, .end, h4{
 	display:inline;
 	text-align:center;
+	
 }
