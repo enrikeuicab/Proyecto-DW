@@ -1,13 +1,17 @@
 
 body{
-	background-image: url('../img/image-blue.jpg');
-	background-attachment: fixed;
+	margin: 0;
+	padding: 0;
+	background: #33cc99 ;
+	font-size: 14px;
+	font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
 }
 
 #content{
 	width: 950px;
-	margin: 0% 8%;
-	background-color: #ffffff;
+	margin: 0px auto;
+	font-family: Geneva, Arial, Helvetica, sans-serif;			
+	background-color: #33cc99 ;
 	border-radius: 7px;
 	text-align: left;
 }
@@ -16,10 +20,12 @@ header{
 	font-size: 37px;
 	font-family: Arial, Verdana, sans-serif;
 	padding: 20px;
+	
 }
 
 #section{
 	font-size: 28px;
 	font-family: Arial, Verdana, sans-serif;
 	padding: 15px;
+	color:#FFFFFF;
 }

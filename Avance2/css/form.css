@@ -1,21 +1,21 @@
 /* CSS Document */
 
 body{
-	background-image: url('../img/Bottom_texture.jpg');
-	background-attachment: fixed;
-	text-align: center;
-	font-size: 13px;
+	
+	margin: 0;
+	padding: 0;
+	background: #33cc99 ;
+	font-size: 14px;
 	font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
 }
 
 #content{
-	width: 950px;
-	margin: 0 8% ;
+width: 950px;
+	margin: 0px auto;
 	font-family: Geneva, Arial, Helvetica, sans-serif;			
-	background-color: #ffffff;
+	background-color: #33cc99 ;
 	border-radius: 7px;
 	text-align: left;
-
 }
 
 #header{
@@ -28,9 +28,9 @@ body{
 }
 
 .box{
-	border-style: solid;
+	border:none;
 	margin: .4em;
 	padding: 8px;
-	border-radius: 7px;
+	background:#FFFFFF;
 
 }
