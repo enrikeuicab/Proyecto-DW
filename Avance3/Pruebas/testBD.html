@@ -1,0 +1,24 @@
+<html> 
+<head> 
+ <title>Title here!</title> 
+</head> 
+<body> 
+ <?php 
+
+ #Esta es una forma mucho mas facil de 
+ #conectarse a la base de datos en MySql 
+
+ #coneccion con el MDB en MySql 
+ $link = mysql_connect("localhost","libweb-dev","GVra29HAKaJKVQML") 
+ or die ("no se ha podido conectar"); 
+
+ #Seleccion de la base de datos a utilizar 
+ mysql_select_db("cc409_libweb_dev") 
+ or die("Error al tratar de selecccionar esta base"); 
+
+ #cierra la base de datos 
+ mysql_close($link); 
+ ?> 
+
+</body> 
+</html>

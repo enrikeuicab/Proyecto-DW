@@ -1,0 +1,1487 @@
+/******************************* INICIA PAGINA *******************************/
+
+#main, table
+{
+    font-family: Georgia, "Times New Roman", Times, Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    text-align: justify;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, ul, ol, li
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+  margin: 0 auto;
+  padding: 0;
+  color: #263740;
+  background-color: #90BCDA;
+  background-image: url('../img/Bottom_t.jpg');
+  background-repeat: repeat-x;
+  background-attachment: fixed;
+  background-position: top center;
+}
+
+.postcontent,
+.postcontent li,
+.postcontent table,
+.postcontent a,
+.postcontent a:link,
+.postcontent a:visited,
+.postcontent a.visited,
+.postcontent a:hover,
+.postcontent a.hovered
+{
+    font-family: "Palatino Linotype", Georgia, "Times New Roman", Times, Serif;
+    font-size: 13px;
+    text-align: justify;
+}
+
+.postcontent p
+{
+    margin: 12px 0 12px 0;
+}
+
+h1, h2, h3, h4, h5, h6,
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a,
+h1 a:link, h2 a:link, h3 a:link, h4 a:link, h5 a:link, h6 a:link,
+h1 a:visited, h2 a:visited, h3 a:visited, h4 a:visited, h5 a:visited, h6 a:visited,
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover
+{
+  font-family: Georgia, "Times New Roman", Times, Serif;
+  font-size: 28px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.postcontent a
+{
+  font-family: Georgia, "Times New Roman", Times, Serif;
+  text-decoration: underline;
+  letter-spacing: 1px;
+  color: #2B7EA1;
+}
+
+.postcontent a:link
+{
+  font-family: Georgia, "Times New Roman", Times, Serif;
+  text-decoration: underline;
+  letter-spacing: 1px;
+  color: #2B7EA1;
+}
+
+.postcontent a:visited, .postcontent a.visited
+{
+
+  color: #4D6E80;
+}
+
+.postcontent  a:hover, .postcontent a.hover
+{
+
+  text-decoration: none;
+  color: #09BDDC;
+}
+
+
+.postcontent h1
+{
+   margin: 19px 0 19px 0; 
+   color: #205E79;
+   font-size: 20px; 
+}
+
+.postcontent h2
+{
+   color: #2B7EA1;
+   margin: 19px 0 19px 0; 
+   font-style: normal;
+   font-weight: normal;
+   font-size: 18px;   
+}
+
+.postcontent h3
+{
+   margin: 22px 0 22px 0; 
+  color: #2D779F; 
+  font-size: 16px;    
+}
+
+.postcontent h4
+{
+   margin: 22px 0 22px 0; 
+   color: #3F5A69; 
+   font-size: 14px;   
+}
+
+.postcontent h5
+{
+   margin: 27px 0 27px 0; 
+   color: #3F5A69;   
+   font-size: 13px;
+}
+
+.postcontent h6
+{
+   margin: 32px 0 32px 0; 
+   color: #3F5A69;
+   font-size: 12px;      
+}
+
+ul
+{
+  list-style-type: none;
+}
+
+ol
+{
+  list-style-position: inside;
+}
+
+#main
+{
+  position: relative;
+  width: 100%;
+  left: 0;
+  top: 0;
+  cursor:default;
+}
+
+#page-background-glare
+{
+  position: relative;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-attachment: fixed;
+}
+
+#page-background-glare-image
+{
+  position: relative;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-attachment: fixed;
+  background-image: url('../img/page_gl0.png');
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
+html:first-child #page-background-glare
+{
+  border: 1px solid transparent;/* Opera fix */
+}
+
+.cleared
+{
+  float: none;
+  clear: both;
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-size: 1px;
+}
+
+table.position
+{
+  position: relative;
+  width: 100%;
+  table-layout: fixed;
+}
+/******************************* FIN PAGINA ********************************/
+
+/******************************** INICIA CAJAS y MARCOS   ********************************/
+.marco
+{
+  position: relative;
+  margin: 0 auto;
+  min-width: 59px;
+  min-height: 59px;
+}
+
+.marco-body
+{
+  position: relative;
+  padding: 7px;
+}
+
+.marco-tr, .marco-tl, .marco-br, .marco-bl, .marco-tc, .marco-bc,.marco-cr, .marco-cl
+{
+  position: absolute;
+}
+
+.marco-tr, .marco-tl, .marco-br, .marco-bl
+{
+  width: 86px;
+  height: 86px;
+  background-image: url('../img/marco_s0.png');
+}
+
+.marco-tl
+{
+  top: 0;
+  left: 0;
+  clip: rect(auto, 43px, 43px, auto);
+}
+
+.marco-tr
+{
+  top: 0;
+  right: 0;
+  clip: rect(auto, auto, 43px, 43px);
+}
+
+.marco-bl
+{
+  bottom: 0;
+  left: 0;
+  clip: rect(43px, 43px, auto, auto);
+}
+
+.marco-br
+{
+  bottom: 0;
+  right: 0;
+  clip: rect(43px, auto, auto, 43px);
+}
+
+.marco-tc, .marco-bc
+{
+  left: 43px;
+  right: 43px;
+  height: 86px;
+  background-image: url('../img/marco_h0.png');
+}
+
+.marco-tc
+{
+  top: 0;
+  clip: rect(auto, auto, 43px, auto);
+}
+
+.marco-bc
+{
+  bottom: 0;
+  clip: rect(43px, auto, auto, auto);
+}
+
+.marco-cr, .marco-cl
+{
+  top: 43px;
+  bottom: 43px;
+  width: 86px;
+  background-image: url('../img/marco_v0.png');
+}
+
+.marco-cr
+{
+  right: 0;
+  clip: rect(auto, auto, auto, 43px);
+}
+
+.marco-cl
+{
+  left: 0;
+  clip: rect(auto, 43px, auto, auto);
+}
+
+.marco-cc
+{
+  position: absolute;
+  top: 43px;
+  left: 43px;
+  right: 43px;
+  bottom: 43px;
+  background-image: url('../img/marco_c0.png');
+}
+
+.marco
+{
+  top: 30px !important;
+  margin-bottom: 30px !important;
+  cursor:auto;
+  width: 914px;
+}
+
+/******************************** FIN CAJAS y los MARCOS   ********************************/
+
+/******************************** INICIA HEADER   ********************************/
+
+div.header
+{
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+  height: 201px;
+  overflow: hidden;
+}
+
+div.header-center
+{
+	position: relative;
+	width: 900px;
+	left:50%;
+}
+
+div.header-png
+{
+  position: absolute;
+  left:-50%;
+  top: 0;
+  width: 900px;
+  height: 201px;
+  background-image: url('../img/header00.png');
+  background-repeat: no-repeat;
+  background-position:center center; 
+}
+
+div.header-jpeg
+{
+  position: absolute;
+  top: 0;
+  left:-50%;
+  width: 900px;
+  height: 201px;
+  background-image: url('../img/header00.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/******************************** FIN HEADER   ********************************/
+
+/******************************** INICIA LOGO   ********************************/
+
+div.logo
+{
+  display: block;
+  position: absolute;
+  left: 10px;
+  top: 20px;
+  width: 500px;
+}
+
+h1.logo-name
+{
+  display: block;
+  text-align: {HorizontalAlign};
+}
+
+h1.logo-name, h1.logo-name a, h1.logo-name a:link, h1.logo-name a:visited, h1.logo-name a:hover
+{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  color: {NameFontColor} !important;
+}
+
+
+h2.logo-text, 
+h2.logo-text a,
+h2.logo-text a:link,
+h2.logo-text a:visited,
+h2.logo-text a:hover
+{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+  color: {TextFontColor} !important;
+}
+
+h2.logo-text
+{
+  display: block;
+  text-align: {HorizontalAlign};
+}
+/******************************** FIN LOGO   ********************************/
+
+/******************************** INICIA MENU   ********************************/
+
+/******************************** ESTRUCTURA MENU   ********************************/
+
+.menu a, .menu a:link, .menu a:visited, .menu a:hover
+{
+    outline: none;
+}
+
+.menu, .menu ul
+{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style-type: none;
+  display: block;
+}
+
+.menu li
+{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: block;
+  float: left;
+  position: relative;
+  z-index: 5;
+  background: none;
+}
+
+.menu li:hover
+{
+  z-index: 10000;
+  white-space: normal;
+}
+
+.menu li li
+{
+  float: none;
+}
+
+.menu ul
+{
+  visibility: hidden;
+  position: absolute;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  background: none;
+}
+
+.menu li:hover>ul
+{
+  visibility: visible;
+  top: 100%;
+}
+
+.menu li li:hover>ul
+{
+  top: 0;
+  left: 100%;
+}
+
+.menu:after, .menu ul:after
+{
+  content: ".";
+  height: 0;
+  display: block;
+  visibility: hidden;
+  overflow: hidden;
+  clear: both;
+}
+.menu, .menu ul
+{
+  min-height: 0;
+}
+
+.menu ul
+{
+  background-image: url('../img/spacer.gif');
+  padding: 10px 30px 30px 30px;
+  margin: -10px 0 0 -30px;
+}
+
+.menu ul ul
+{
+  padding: 30px 30px 30px 10px;
+  margin: -30px 0 0 -10px;
+}
+
+
+div.nav-center
+{
+  position: relative;
+  float: right;
+  right: 50%;
+
+}
+
+ul.menu
+{
+  position: relative;
+  float: left;
+  left: 50%;
+}
+
+.firefox2 ul.menu
+{
+  float: none;
+}
+
+
+/******************************** FIN ESTRUCTURA MENU   ********************************/
+
+.menu
+{
+  padding: 0 0 0 0;
+}
+
+.nav
+{
+  position: relative;
+  min-height: 25px;
+  z-index: 100;
+}
+
+.nav .l, .nav .r
+{
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  height: 100%;
+  background-image: url('../img/nav00000.png');
+}
+
+.nav .l
+{
+  left: 0;
+  right: 0;
+}
+
+.nav .r
+{
+  right: 0;
+  width: 900px;
+  clip: rect(auto, auto, auto, 900px);
+}
+
+
+/******************************** FIN MENU   ********************************/
+
+/******************************** INICIA ITEMS MENU   ********************************/
+.menu a
+{
+  position: relative;
+  display: block;
+  overflow: hidden;
+  height: 25px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+
+.menu ul li
+{
+    margin:0;
+    clear: both;
+}
+
+
+.menu a .r, .menu a .l
+{
+  position: absolute;
+  display: block;
+  top: 0;
+  z-index: -1;
+  height: 85px;
+  background-image: url('../img/menuitem.png');
+}
+
+.menu a .l
+{
+  left: 0;
+  right: 13px;
+}
+
+.menu a .r
+{
+  width: 426px;
+  right: 0;
+  clip: rect(auto, auto, auto, 413px);
+}
+
+.menu a .t, .menu ul a, .menu a, .menu a:link, .menu a:visited, .menu a:hover
+{
+  font-family: "Palatino Linotype", Georgia, "Times New Roman", Times, Serif;
+  font-weight: bold;
+  text-align: left;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.menu a .t
+{
+  color: #0B1F28;
+  padding: 0 10px;
+  margin: 0 13px;
+  line-height: 25px;
+  text-align: center;
+}
+
+.menu a:hover .l, .menu a:hover .r
+{
+  top: -30px;
+}
+
+.menu li:hover>a .l, .menu li:hover>a .r
+{
+  top: -30px;
+}
+
+.menu li:hover a .l, .menu li:hover a .r
+{
+  top: -30px;
+}
+.menu a:hover .t
+{
+  color: #131B20;
+}
+
+.menu li:hover a .t
+{
+  color: #131B20;
+}
+
+.menu li:hover>a .t
+{
+  color: #131B20;
+}
+
+
+.menu a.active .l, .menu a.active .r
+{
+  top: -60px;
+}
+
+.menu a.active .t
+{
+  color: #D6E0E6;
+}
+
+
+.menu a:hover.separador-without-submenu 
+{
+  cursor: default;
+}
+
+.menu a:hover.separador-without-submenu .t
+{
+  color: #0B1F28;
+}
+
+.menu li:hover a.separador-without-submenu .t
+{
+  color: #0B1F28;
+}
+
+a:hover.separador-without-submenu .r, a:hover.separador-without-submenu .l 
+{
+  top: 0 !important;
+}
+/******************************** FIN ITEMS MENU   ********************************/
+
+/******************************** INICIA SEPARADOR MENU   ********************************/
+.menu .menu-li-separador
+{
+  display: block;
+  width: 12px;
+  height:25px;
+}
+/******************************** FIN SEPARADOR MENU   ********************************/
+
+/******************************** FIN SUBITEMS MENU   ********************************/
+.menu ul a
+{
+  display: block;
+  text-align: center;
+  white-space: nowrap;
+  height: 20px;
+  width: 180px;
+  overflow: hidden;
+  line-height: 20px;
+  background-image: url('../img/subitem.png');
+  background-position: left top;
+  background-repeat: repeat-x;
+  border-width: 4px;
+  border-style: solid;
+  border-color: #3294BD;
+}
+
+.nav ul.menu ul span, .nav ul.menu ul span span
+{
+  display: inline;
+  float: none;
+  margin: inherit;
+  padding: inherit;
+  background-image: none;
+  text-align: inherit;
+  text-decoration: inherit;
+}
+
+.menu ul a, .menu ul a:link, .menu ul a:visited, .menu ul a:hover, .menu ul a:active, .nav ul.menu ul span, .nav ul.menu ul span span
+{
+  text-align: left;
+  text-indent: 12px;
+  text-decoration: none;
+  line-height: 20px;
+  color: #0B1F28;
+  font-weight: normal;
+  margin:0;
+  padding:0;
+}
+
+.menu ul li a:hover
+{
+  color: #0B1E28;
+  border-color: #3294BD;
+  background-position: 0 -20px;
+}
+
+.menu ul li:hover>a
+{
+  color: #0B1E28;
+  border-color: #3294BD;
+  background-position: 0 -20px;
+}
+
+.nav .menu ul li a:hover span, .nav .menu ul li a:hover span span
+{
+  color: #0B1E28;
+}
+
+.nav .menu ul li:hover>a span, .nav .menu ul li:hover>a span span
+{
+  color: #0B1E28;
+}
+/******************************** FIN SUBITEMS MENU   ********************************/
+
+
+/******************************** INICIA DISEÑO PAGINA   ********************************/
+.content-layout
+{
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  background-color: Transparent;
+  border: none !important;
+  padding:0 !important;
+}
+.layout-cell, .content-layout-row
+{
+  background-color: Transparent;
+  vertical-align: top;
+  text-align: left;
+  border: none !important;
+  margin:0 !important;
+  padding:0 !important;
+}
+.content-layout .content-layout{width: auto;margin:0;}
+.content-layout .layout-cell, .content-layout .layout-cell .content-layout .layout-cell{display: table-cell;}
+.layout-cell .layout-cell{display: block;}
+.content-layout-row {display: table-row;}
+.layout-glare{position:relative;}
+
+/******************************** FIN DISEÑO PAGINA   ********************************/
+
+
+/******************************** INICIA BLOQUES   ********************************/
+.block
+{
+  position: relative;
+  margin: 0 auto;
+  min-width: 1px;
+  min-height: 1px;
+}
+
+.block-body
+{
+  position: relative;
+  padding: 0;
+}
+
+
+.block
+{
+  margin: 7px;
+}
+/******************************** FIN BLOQUES   ********************************/
+
+/******************************** INICIA CABECERA DEL BLOQUE   ********************************/
+.blockheader
+{
+  margin-bottom: 0;
+}
+
+.bockheader, .blockheader h3.t
+{
+  position: relative;
+  height: 26px;
+}
+
+.blockheader h3.t,
+.blockheader h3.t a,
+.blockheader h3.t a:link,
+.blockheader h3.t a:visited, 
+.blockheader h3.t a:hover
+{
+  color: #000000;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.blockheader h3.t
+{
+  margin:0;
+  padding: 0 10px 0 10px;
+  white-space: nowrap;
+  line-height: 26px;	
+}
+
+/******************************** FIN CABECERA DEL BLOQUE   ********************************/
+
+/******************************** INICIA CONTENIDO DEL BLOQUE   ********************************/
+.blockcontent
+{
+  position: relative;
+  margin: 0 auto;
+  min-width: 1px;
+  min-height: 1px;
+}
+
+.blockcontent-body
+{
+  position: relative;
+  padding: 3px;
+}
+
+
+.blockcontent-body, 
+.blockcontent-body li, 
+.blockcontent-body a,
+.blockcontent-body a:link,
+.blockcontent-body a:visited,
+.blockcontent-body a:hover
+{
+  color: #223139;
+  font-family: Georgia, "Times New Roman", Times, Serif;
+  font-size: 12px;
+}
+
+.blockcontent-body p
+{
+  margin: 6px 0 6px 0;
+}
+
+.blockcontent-body a
+{
+  color: #2B7EA1;
+  text-decoration: underline;
+}
+
+.blockcontent-body a:link
+{
+  color: #2B7EA1;
+  text-decoration: underline;
+}
+
+.blockcontent-body a:visited, .blockcontent-body a.visited
+{
+  color: #60899F;
+
+}
+
+.blockcontent-body a:hover, .blockcontent-body a.hover
+{
+  color: #09BDDC;
+
+  text-decoration: none;
+}
+
+.blockcontent-body ul li
+{
+  line-height: 125%;    
+  color: #3B5563;
+
+  padding: 0 0 0 12px;
+  background-image: url('../img/blockcontentbullets.png');
+  background-repeat: no-repeat;
+}
+/******************************** FIN CONTENIDO DEL BLOQUE ********************************/
+
+/******************************** INICIA BOTONES ********************************/
+.button-wrapper a.button,
+.button-wrapper a.button:link,
+.button-wrapper input.button,
+.button-wrapper button.button
+{
+  text-decoration: none;
+  font-family: Georgia, "Times New Roman", Times, Serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 11px;
+  position:relative;
+  top:0;
+  display: inline-block;
+  vertical-align: middle;
+  white-space: nowrap;
+  text-align: center;
+  color: #000000 !important;
+  width: auto;
+  outline: none;
+  border: none;
+  background: none;
+  line-height: 26px;
+  height: 26px;
+  margin: 0 !important;
+  padding: 0 11px !important;
+  overflow: visible;
+  cursor: default;
+}
+
+.button img, .button-wrapper img
+{
+  margin: 0;
+  vertical-align: middle;
+}
+
+.button-wrapper
+{
+  vertical-align: middle;
+  display: inline-block;
+  position: relative;
+  height: 26px;
+  overflow: hidden;
+  white-space: nowrap;
+  width: auto;
+  margin: 0;
+  padding: 0;
+  z-index: 0;
+}
+
+.firefox2 .button-wrapper
+{
+  display: block;
+  float: left;
+}
+
+input, select, textarea
+{
+  vertical-align: middle;
+  font-family: Georgia, "Times New Roman", Times, Serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 11px;
+}
+
+.block select 
+{
+    width:96%;
+}
+
+.button-wrapper.hover .button, .button-wrapper.hover a.button:link, .button:hover
+{
+  color: #000000 !important;
+  text-decoration: none !important;
+}
+
+.button-wrapper.active .button, .button-wrapper.active a.button:link
+{
+  color: #0B1E28 !important;
+}
+
+.button-wrapper .button-l, .button-wrapper .button-r
+{
+  display: block;
+  position: absolute;
+  height: 88px;
+  margin: 0;
+  padding: 0;
+  background-image: url('../img/button00.png');
+}
+
+.button-wrapper .button-l
+{
+  left: 0;
+  right: 9px;
+}
+
+.button-wrapper .button-r
+{
+  width: 407px;
+  right: 0;
+  clip: rect(auto, auto, auto, 398px);
+}
+
+.button-wrapper.hover .button-l, .button-wrapper.hover .button-r
+{
+  top: -31px;
+}
+
+.button-wrapper.active .button-l, .button-wrapper.active .button-r
+{
+  top: -62px;
+}
+
+.button-wrapper input
+{
+  float: none !important;
+}
+/******************************** FIN BOTONES ********************************/
+
+/******************************** INICIA POST ********************************/
+.post
+{
+  position: relative;
+  margin: 0 auto;
+  min-width: 23px;
+  min-height: 23px;
+}
+
+.post-body
+{
+  position: relative;
+  padding: 18px;
+}
+
+.post-tr, .post-tl, .post-br, .post-bl, .post-tc, .post-bc,.post-cr, .post-cl
+{
+  position: absolute;
+}
+
+.post-tr, .post-tl, .post-br, .post-bl
+{
+  width: 30px;
+  height: 30px;
+  background-image: url('../img/post_s00.png');
+}
+
+.post-tl
+{
+  top: 0;
+  left: 0;
+  clip: rect(auto, 15px, 15px, auto);
+}
+
+.post-tr
+{
+  top: 0;
+  right: 0;
+  clip: rect(auto, auto, 15px, 15px);
+}
+
+.post-bl
+{
+  bottom: 0;
+  left: 0;
+  clip: rect(15px, 15px, auto, auto);
+}
+
+.post-br
+{
+  bottom: 0;
+  right: 0;
+  clip: rect(15px, auto, auto, 15px);
+}
+
+.post-tc, .post-bc
+{
+  left: 15px;
+  right: 15px;
+  height: 30px;
+  background-image: url('../img/post_h00.png');
+}
+
+.post-tc
+{
+  top: 0;
+  clip: rect(auto, auto, 15px, auto);
+}
+
+.post-bc
+{
+  bottom: 0;
+  clip: rect(15px, auto, auto, auto);
+}
+
+.post-cr, .post-cl
+{
+  top: 15px;
+  bottom: 15px;
+  width: 30px;
+  background-image: url('../img/post_v00.png');
+}
+
+.post-cr
+{
+  right: 0;
+  clip: rect(auto, auto, auto, 15px);
+}
+
+.post-cl
+{
+  left: 0;
+  clip: rect(auto, 15px, auto, auto);
+}
+
+.post-cc
+{
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+  background-image: url('../img/post_c00.png');
+}
+
+.post
+{
+  margin: 5px;
+}
+
+a img
+{
+  border: 0;
+}
+
+.article img, img.article
+{
+  border: solid 0 #A9BFCB;
+  margin: 10px;
+}
+
+.metadata-icons img
+{
+  border: none;
+  vertical-align: middle;
+  margin: 2px;
+}
+
+.article table, table.article
+{
+  border-collapse: collapse;
+  margin: 1px;
+}
+
+.article th, .article td
+{
+  padding: 2px;
+  border: solid 0 #7095A9;
+  vertical-align: top;
+  text-align: left;
+}
+
+.article th
+{
+  text-align: center;
+  vertical-align: middle;
+  padding: 7px;
+}
+
+pre
+{
+  overflow: auto;
+  padding: 0.1em;
+  float:left;
+}
+/******************************** FIN POST ********************************/
+
+/******************************** INICIA CABECERA DEL POST ********************************/
+h2.postheader
+{
+  color: #153F51;
+  margin: 6px 0 6px 0;
+}
+
+h2.postheader, 
+h2.postheader a, 
+h2.postheader a:link, 
+h2.postheader a:visited,
+h2.postheader a.visited,
+h2.postheader a:hover,
+h2.postheader a.hovered
+{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: normal;
+}
+
+h2.postheader a, h2.postheader a:link
+{
+  text-decoration: none;
+  color: #236885;
+}
+
+h2.postheader a:visited, h2.postheader a.visited
+{
+
+  color: #3F5A69;
+}
+
+
+h2.postheader a:hover,  h2.postheader a.hovered
+{
+
+  text-decoration: underline;
+  color: #09BDDC;
+}
+/******************************** FIN CABECERA DEL POST ********************************/
+
+/******************************** INICIA LA IMAGEN DE LA CABECERA DEL POST ********************************/
+.postheadericons,
+.postheadericons a,
+.postheadericons a:link,
+.postheadericons a:visited,
+.postheadericons a:hover
+{
+  font-family: Georgia, "Times New Roman", Times, Serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 11px;
+  color: #3F5A69;
+}
+
+.postheadericons
+{
+  padding: 1px;
+
+}
+
+.postheadericons a, .postheadericons a:link
+{
+  text-decoration: underline;
+  letter-spacing: 1px;
+  color: #2B7EA1;
+}
+
+.postheadericons a:visited, .postheadericons a.visited
+{
+
+  color: #205E79;
+}
+
+.postheadericons a:hover, .postheadericons a.hover
+{
+
+  text-decoration: none;
+  color: #09BDDC;
+}
+/******************************** FIN LA IMAGEN DE LA CABECERA DEL POST ********************************/
+
+/******************************** INICIA VIÑETAS ********************************/
+.post ol, .post ul
+{
+  margin: 1em 0 1em 2em;
+  padding: 0;
+}
+
+.post li
+{
+  font-family: Georgia, "Times New Roman", Times, Serif;
+  font-size: 12px;
+  text-align: left;
+}
+
+.post li ol, .post li ul
+{
+  margin: 0.5em 0 0.5em 2em;
+  padding: 0;
+}
+
+.post li
+{
+  color: #061318;
+  margin: 0 0 0 12px;
+  padding: 0;
+}
+
+
+.post li
+{
+  padding: 0 0 0 14px;
+}
+
+.post ol>li
+{
+  background: none;
+  padding-left: 0;
+  overflow: visible;
+}
+
+.post ul>li
+{
+  background-image: url('../img/postbull.png');
+  background-repeat: no-repeat;
+  padding-left: 14px;
+  overflow-x: visible;
+  overflow-y: hidden;
+}
+/******************************** FIN VIÑETAS ********************************/
+
+/******************************** INICIA CITAS ********************************/
+.postcontent blockquote,
+.postcontent blockquote a,
+.postcontent blockquote a:link,
+.postcontent blockquote a:visited,
+.postcontent blockquote a:hover
+{
+  color: #0B1013;
+  font-family: Georgia, "Times New Roman", Times, Serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 12px;
+  text-align: left;
+}
+
+.postcontent blockquote p
+{
+   margin: 17px 0 17px 17px;
+}
+
+.postcontent blockquote
+{
+   border: solid 1px #A9BFCB;
+  margin: 10px 10px 10px 50px;
+  padding: 2px 2px 2px 30px;
+  background-color: #D2DEE4;
+  background-image: url('../img/postquote.png');
+  background-position: left top;
+  background-repeat: no-repeat;
+  overflow: auto;
+}
+/******************************** FIN CITAS ********************************/
+
+/******************************** INICIA PIE DE PAGINA ********************************/
+.footer
+{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.footer-b 
+{
+  position: absolute;
+  left:15px;
+  right:15px;
+  bottom:0;
+  height:50px;
+  background-image: url('../img/footer_b.png');
+}
+
+.footer-r, .footer-l
+{
+  position: absolute;
+  height:50px;
+  background-image: url('../img/footer_s.png');
+  bottom: 0;
+}
+
+.footer-l
+{
+  left: 0;
+  width:15px;
+}
+
+.footer-r
+{
+  right: 0;
+  width:30px;
+  clip: rect(auto, auto, auto, 15px);
+}
+
+.footer-t
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 50px;
+  background-color: #133949;
+}
+
+.footer-body
+{
+    position:relative;
+    padding: 8px;
+}
+
+.footer-text p
+{
+  padding:0;
+  margin:0;
+}
+
+.footer,
+.footer a,
+.footer a:link,
+.footer a:visited,
+.footer a:hover
+{
+    color: #80A1B3;
+    font-style: italic;
+    font-size: 11px;
+}
+
+.footer-text
+{
+  min-height: 32px;
+  padding: 0 10px 0 10px;
+
+}
+
+.footer,
+.footer-text,
+.footer p
+{
+  text-align: center;
+}
+
+.footer a,
+.footer a:link
+{
+  color: #86C4DF;
+  text-decoration: underline;
+}
+
+.footer a:visited
+{
+  color: #9FB8C6;
+
+}
+
+.footer a:hover
+{
+  color: #09BDDC;
+
+  text-decoration: none;
+}
+/******************************** INICIA PIE DE PAGINA ********************************/
+
+
+/******************************** INICIA ALGUNOS ARREGLOS ********************************/
+#navigation
+{
+  text-align: center;
+}
+
+.article h3 img
+{
+  border: none;
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-text .moduletable
+{
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+

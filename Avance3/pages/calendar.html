@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset ="UTF-8">
+	<title>CALENDARIO DE EVENTOS</title>
+	<link rel="stylesheet" type="text/css" href="../css/template.css" media="screen">
+	<link rel='stylesheet' type='text/css' href='../js/fullcalendar-1.5.4/demos/cupertino/theme.css' />
+	<link rel='stylesheet' type='text/css' href='../js/fullcalendar-1.5.4/fullcalendar/fullcalendar.css' />
+	<link rel='stylesheet' type='text/css' href='../js/fullcalendar-1.5.4/fullcalendar/fullcalendar.print.css' media='print' />
+	<script type='text/javascript' src='../js/fullcalendar-1.5.4/jquery/jquery-1.8.1.min.js'></script>
+	<script type='text/javascript' src='../js/fullcalendar-1.5.4/jquery/jquery-ui-1.8.23.custom.min.js'></script>
+	<script type='text/javascript' src='../js/fullcalendar-1.5.4/fullcalendar/fullcalendar.min.js'></script>
+	<script type='text/javascript'>
+		$(document).ready(function() {
+		
+			var date = new Date();
+			var d = date.getDate();
+			var m = date.getMonth();
+			var y = date.getFullYear();
+			
+			$('#calendar').fullCalendar({
+				theme: true,
+				header: {
+					left: 'prev,next today',
+					center: 'title',
+					right: 'month,agendaWeek,agendaDay'
+				},
+				editable: true,
+				events: [
+					{
+						title: 'Entrega del primer avance del proyecto',
+						start: new Date(y, m, d+1, 19, 0),
+						end: new Date(y, m, d+1, 22, 30),
+						allDay: true
+					},
+					{
+						title: 'Cumpleaos de Leoswaldo',
+						start: new Date(y, m, 25),
+						end: new Date(y, m, 25),
+						allDay: true
+					},
+					{
+						title: 'Cumpleaos del Hermano de Leoswaldo',
+						start: new Date(y, m, 26),
+						end: new Date(y, m, 26),
+						allDay: true
+					}
+				]
+			});
+			
+		});
+
+	</script>
+
+	<style type='text/css'>
+		#calendar {
+			width: 850px;
+			margin: 0px auto;
+		}
+	</style>
+</head>
+<body>
+<div id="page-background-glare">
+		<div id="page-background-glare-image">
+			<div id="main">
+				<div class="marco">
+					<div class="marco-tl"></div><div class="marco-tr"></div>
+					<div class="marco-bl"></div><div class="marco-br"></div>
+					<div class="marco-tc"></div><div class="marco-bc"></div>
+					<div class="marco-cl"></div><div class="marco-cr"></div>
+					<div class="marco-cc"></div>
+					<div class="marco-body">
+						<div class="header">
+							<div class="header-center">
+								<div class="header-png"></div>
+								<div class="header-jpeg"></div>
+							</div>
+						</div>
+						
+<!-- *********************************************** INICIA NAVBAR  ***********************************************			-->
+						
+						<div class="nav">
+							<div class="l"></div>
+							<div class="r"></div>
+							<div class="nav-center">
+								<ul class="menu">
+									<li class="item1"><a href="../index.php">
+										<span class="l"></span> <span class="r"></span>
+										<span class="t">Inicio</span>
+									</a></li>
+									<li class="menu-li-separador" > <span class="menu-separador"> </span> </li>
+									<li id="current" class="active item2"><a href="calendar.html" class="active">
+										<span class="l"></span> <span class="r"></span>
+										<span class="t">Calendario</span>
+											</a></li>									
+									<li class="menu-li-separador" > <span class="menu-separador"> </span> </li>
+									<li class="item3"><a href="form/concursos.html">
+										<span class="l"></span> <span class="r"></span>
+										<span class="t">Enviar Concurso</span>
+									</a></li>
+									<li class="menu-li-separador" > <span class="menu-separador"> </span> </li>
+									<li class="item4"><a href="under.html">
+										<span class="l"></span> <span class="r"></span>
+										<span class="t">Contacto</span>
+									</a></li>
+								</ul>
+							</div>
+						</div>
+
+<!-- *********************************************** FIN NAVBAR  ***********************************************			-->
+	
+<!-- *********************************************** INICIA REDES  ***********************************************			-->
+						<div class="block">
+							<div class="block-body">
+								<div class="blockcontent">
+									<div class="blockcontent-body">
+										<p style="text-align: left;">
+											<a href="https://www.facebook.com/groups/258641287521356/"  target="_blank" title="Facebook Programaci&oacute;n Web">
+												<img src="../img/facebook-logo.png" alt="Facebook" border="0" style="float:left;" />
+											</a>
+											<a href="https://twitter.com/" target="_blank" title="Twitter">
+												<img src="../img/twitter-logo.png" alt="twitter" border="0" style="float:left;" />
+											</a>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+<!--		*********************************************** FIN REDES  ***********************************************		-->	
+<!--		*********************************************** INiCIA CONTENIDO  ***********************************************		-->		
+
+						<div class="content-layout">
+						<div class="content-layout-row">
+						<div class="layout-cell content">
+
+<!--		*********************************************** INICIA POST  ***********************************************		-->
+	
+						<div class="post">
+							<div class="post-tl"></div><div class="post-tr"></div>
+							<div class="post-bl"></div><div class="post-br"></div>
+							<div class="post-tc"></div><div class="post-bc"></div>
+							<div class="post-cl"></div><div class="post-cr"></div>
+							<div class="post-cc"></div>
+<!--		*********************************************** INICIA ENCABEZADO DE POST  ***********************************************		-->			
+							<div class="post-body">
+								<div class="post-inner">
+									<h2 class="postheader"> 
+										<span class="componentheading">CALENDARIO DE EVENTOS</span>
+									</h2>
+									<br />
+									<br />
+								<div id='calendar'></div>
+								</div>
+								<div class="cleared"></div>
+							</div>
+						</div>
+<!--		*********************************************** FIN POST  ***********************************************		-->
+<!--		*********************************************** INICIA PIE DE PAGINA  ***********************************************		-->						
+
+						<div class="footer">
+							<div class="footer-t"></div>
+							<div class="footer-l"></div>
+							<div class="footer-b"></div>
+							<div class="footer-r"></div>
+							<div class="footer-body">
+								<div class="footer-text">
+									<p>Copyright © 2012. Todos Los Derechos Reservados.</p>
+								</div>
+								<div class="cleared"></div>
+							</div>
+						</div>
+<!--		*********************************************** FIN PIE DE PAGINA  ***********************************************		-->						
+						<div class="cleared"></div>
+					</div>
+				</div>
+				<div class="cleared"></div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+</div>
+</body>
+</html>
